@@ -1,0 +1,21 @@
+---
+title: "Sample Analysis"
+output: html_document
+runtime: shiny
+---
+
+## Analysis
+
+```{r}
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+
+# Sample Data
+data <- data.frame(x = rnorm(100), y = rnorm(100))
+
+# Create a plot
+ggplot(data, aes(x = x, y = y)) +
+  geom_point() +
+  theme_minimal() +
+  ggtitle("Sample Scatter Plot")
