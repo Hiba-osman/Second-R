@@ -1,4 +1,0 @@
-r-base
-r-cran-ggplot2
-r-cran-dplyr
-r-cran-tidyr
